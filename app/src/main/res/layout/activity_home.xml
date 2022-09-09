@@ -21,7 +21,7 @@
             android:id="@+id/emailTextView"
             android:layout_width="match_parent"
             android:layout_height="40dp"
-            android:text="E-mail" />
+            android:text="@string/e_mail" />
 
         <Space
             android:layout_width="match_parent"
@@ -31,7 +31,7 @@
             android:id="@+id/provedorTextView2"
             android:layout_width="match_parent"
             android:layout_height="40dp"
-            android:text="Provedor" />
+            android:text="@string/provedor" />
 
         <Space
             android:layout_width="match_parent"
@@ -43,12 +43,12 @@
             android:orientation="horizontal">
 
             <Button
-                android:id="@+id/singUpButton"
-                android:layout_width="wrap_content"
+                android:id="@+id/logOutButton"
+                android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
                 android:background="@color/black"
-                android:text="Sair"
+                android:text="@string/sair"
                 android:textColor="@color/white" />
 
         </LinearLayout>

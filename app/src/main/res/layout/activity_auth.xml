@@ -22,8 +22,9 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:ems="10"
-            android:hint="E-mail"
-            android:inputType="textEmailAddress" />
+            android:hint="@string/email"
+            android:inputType="textEmailAddress"
+            android:importantForAutofill="no" />
 
         <Space
             android:layout_width="match_parent"
@@ -34,8 +35,9 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:ems="10"
-            android:hint="Senha"
-            android:inputType="textPassword" />
+            android:hint="@string/senha"
+            android:inputType="textPassword"
+            android:importantForAutofill="no" />
 
         <Space
             android:layout_width="match_parent"
@@ -47,13 +49,13 @@
             android:orientation="horizontal">
 
             <Button
-                android:id="@+id/singUpButton"
+                android:id="@+id/logOutButton"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
                 android:background="@color/azul"
                 android:textColor="@color/white"
-                android:text="Cadastrar" />
+                android:text="@string/cadastrar" />
 
             <Space
                 android:layout_width="8dp"
@@ -66,7 +68,7 @@
                 android:layout_weight="1"
                 android:background="@color/verde"
                 android:textColor="@color/white"
-                android:text="Entrar" />
+                android:text="@string/entrar" />
         </LinearLayout>
     </LinearLayout>
 
