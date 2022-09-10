@@ -2,7 +2,6 @@ package br.com.joshuaweb.lgpd
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-//import br.com.joshuaweb.lgpd.databinding.ActivityAuthBinding
 import br.com.joshuaweb.lgpd.databinding.ActivityHomeBinding
 import com.google.firebase.auth.FirebaseAuth
 
