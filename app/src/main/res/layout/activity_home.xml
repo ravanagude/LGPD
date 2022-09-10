@@ -28,7 +28,7 @@
             android:layout_height="8dp" />
 
         <TextView
-            android:id="@+id/provedorTextView2"
+            android:id="@+id/provedorTextView"
             android:layout_width="match_parent"
             android:layout_height="40dp"
             android:text="@string/provedor" />
